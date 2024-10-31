@@ -27,7 +27,7 @@
       --margin: calc((var(--view-box) - var(--size)) / 2);
       x: var(--margin);
       y: var(--margin);
-      rx: 8;
+      rx: 8px;
     }
 
     .rotate {
@@ -39,5 +39,5 @@
       animation-timing-function: linear;
     }
   </style>
-  <rect rx="8px" class="rotate infinite"/>
+  <rect class="rotate infinite"/>
 </svg>
