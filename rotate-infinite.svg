@@ -8,7 +8,6 @@
       --corner-radius: var(--margin);
 
       --time: 4s;
-      --ease: linear;
 
       fill: currentColor; /*: none;
       stroke: currentColor;
