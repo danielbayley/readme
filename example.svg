@@ -2,7 +2,7 @@
   <style>
     svg {
       --size: 100%;
-      overflow: visible;
+      overflow: hidden;
     }
     rect {
       fill: none;
