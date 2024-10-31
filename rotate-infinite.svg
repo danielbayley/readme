@@ -5,7 +5,7 @@
 
     svg {
       --view-box: 64px;
-      --size: 64%; /* calc(var(--view-box) / 2) */
+      --size: 50%; /* calc(var(--view-box) / 2) */
 
       fill: currentColor; /*: none;
       stroke: currentColor;
