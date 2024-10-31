@@ -11,7 +11,7 @@
       transform-box: fill-box;
 
       --size: calc(var(--view-box) / 1.5);
-      --margin: calc(var(--size) / 1.5);
+      --margin: calc(var(--size) / 2);
 
       width:  var(--size);
       height: var(--size);
