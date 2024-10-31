@@ -6,7 +6,7 @@
     svg {
       --view-box: 64px;
       --size: 64%;
-      --corner-radius: calc((var(--size) * 1px) / 8px);
+      --corner-radius: 8;
 
       background-color: #111;
 
