@@ -11,8 +11,10 @@
     }
 
     .rotate {
-      animation: rotate 1s linear infinite;
+      animation: rotate 1s linear;
     } @keyframes rotate { to { rotate: 1turn }}
+
+    .infinite { animation-interation-count: infinite }
   </style>
-  <rect x="50%" y="50%" width="18" height="18" class="rotate"/>
+  <rect x="50%" y="50%" width="100%" height="100%" class="rotate infinite"/>
 </svg>
