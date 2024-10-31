@@ -7,6 +7,8 @@
       --view-box: 64px;
       --size: 64%; /* calc(var(--view-box) / 2) */
 
+      background-color: #111;
+
       fill: currentColor; /*: none;
       stroke: currentColor;
       stroke-width: 4;
