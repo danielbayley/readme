@@ -7,6 +7,7 @@
       stroke-linecap:  round;
       stroke-linejoin: round;
       transform-origin: center;
+      transform-box:  fill-box;
     }
 
     .rotate {
