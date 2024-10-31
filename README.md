@@ -2,6 +2,6 @@ SVG
 ===
 Example:
 ~~~ svg
-<rect x="3" y="3" width="18" height="18" class="rotate infinite"/>
+<rect x="50%" y="50%" width="160" height="160" class="rotate infinite"/>
 ~~~
 <img src="example.svg"/>
