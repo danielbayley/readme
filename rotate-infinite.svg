@@ -38,5 +38,5 @@
       animation-timing-function: linear;
     }
   </style>
-  <rect class="rotate infinite"/>
+  <rect rx="4" class="rotate infinite"/>
 </svg>
