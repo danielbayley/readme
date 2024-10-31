@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <style>
     @media (prefers-color-scheme: dark)  { svg { color-scheme: dark  }}
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
@@ -9,9 +9,6 @@
       --corner-radius: 4;
 
       background-color: #111;
-
-      width:  var(--view-box);
-      height: var(--view-box);
 
       fill: currentColor; /*: none;
       stroke: currentColor;
