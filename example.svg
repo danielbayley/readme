@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+<svg xmlns="http://www.w3.org/2000/svg">
   <style>
+    svg {
+      --size: 160px;
+      width:  var(--size);
+      height: var(--size);
+      overflow: visible;
+    }
     svg * {
       fill: none;
       stroke: white;
@@ -8,7 +14,6 @@
       stroke-linejoin: round;
       transform-origin: center;
       transform-box: fill-box;
-      overflow: visible;
     }
 
     .rotate {
