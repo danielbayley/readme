@@ -13,10 +13,12 @@
       transform-origin: center;
       transform-box: fill-box;
 
-      width:  75%;
-      height: 75%; /* calc(var(--size) / 2); */
-      /* x: calc(var(--size) / 4); */
-      /* y: calc(var(--size) / 4); */
+      --margin: calc((var(--size) / 2) - (var(--size) / 2));
+
+      width:  var(--size);
+      height: var(--size);
+      x: var(--margin);
+      y: var(--margin);
     }
 
     .rotate {
