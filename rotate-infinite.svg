@@ -15,7 +15,7 @@
       stroke-linejoin: round;
     }
 
-    * {
+    svg * {
       transform-origin: center;
       transform-box: fill-box;
     }
@@ -38,5 +38,5 @@
       animation-timing-function: linear;
     }
   </style>
-  <rect rx="4" class="rotate infinite"/>
+  <rect rx="16px" class="rotate infinite"/>
 </svg>
