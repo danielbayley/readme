@@ -10,8 +10,8 @@
       transform-origin: center;
       transform-box: fill-box;
 
-      --size: calc(var(--view-box) / 2);
-      --margin: calc(var(--size) / 2);
+      --size: calc(var(--view-box) / 1.5);
+      --margin: calc(var(--view-box) - var(--size) / 2);
 
       width:  var(--size);
       height: var(--size);
