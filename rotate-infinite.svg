@@ -9,8 +9,7 @@
 
       fill: none;
       stroke: currentColor;
-      --stroke-width: 4;
-      stroke-width: var(--stroke-width);
+      stroke-width: 4;
       stroke-linecap:  round;
       stroke-linejoin: round;
     }
@@ -26,7 +25,7 @@
       --margin: calc((var(--view-box) - var(--size)) / 2);
       x: var(--margin);
       y: var(--margin);
-      rx: var(--stroke-width);
+      rx: 4; /* var(--stroke-width) */
     }
 
     .rotate {
@@ -38,5 +37,5 @@
       animation-timing-function: linear;
     }
   </style>
-  <rect rx="4" width="50%" height="50%" class="rotate infinite"/>
+  <rect class="rotate infinite"/>
 </svg>
