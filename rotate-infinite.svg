@@ -21,7 +21,7 @@
     }
 
     rect {
-      --size: calc(var(--view-box) - (var(--margin) / 2));
+      --size: calc(var(--view-box) - (var(--margin) * 2));
       width:  var(--size);
       height: var(--size);
       /* --margin: calc((var(--view-box) - var(--size)) / 2); */
