@@ -5,13 +5,13 @@
 
     svg {
       --view-box: 64px;
-      width: var(--view-box);
-      height: var(--view-box);
-    
       --size: 64%;
-      --corner-radius: 4;
+      --corner-radius: calc(var(--size) / 16));
 
       background-color: #111;
+
+      width:  var(--view-box);
+      height: var(--view-box);
 
       fill: currentColor; /*: none;
       stroke: currentColor;
