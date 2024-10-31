@@ -2,8 +2,11 @@
 ==================
 > **S**calable **V**ector **M**otion **G**raphics
 
+Usage
+-----
+TODO.
 
-## [`rotate`]/`spin`
+### [`rotate`]/`spin`
 ~~~ svg
 <rect width="64" height="64" class="rotate infinite"/>
 ~~~
