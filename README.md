@@ -1,5 +1,7 @@
 [SV][svg]M[G][svg]
 ==================
+> **S**calable **V**ector **M**otion **G**raphics
+
 
 ## [`rotate`]/`spin`
 ~~~ svg
