@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
   <style>
-    svg { --size: 128px }
+    svg { --view-box: 128px }
     rect {
       fill: none;
       stroke: white;
@@ -10,11 +10,11 @@
       transform-origin: center;
       transform-box: fill-box;
 
-      --resize: calc(var(--size) / 2);
-      --margin: calc(var(--resize) / 2);
+      --size: calc(var(--view-box) / 1.5);
+      --margin: calc(var(--size) / 2);
 
-      width:  var(--resize);
-      height: var(--resize);
+      width:  var(--size);
+      height: var(--size);
       x: var(--margin);
       y: var(--margin);
     }
