@@ -13,8 +13,8 @@
       transform-origin: center;
       transform-box: fill-box;
 
-      width:  100%;
-      height: 100%; /* calc(var(--size) / 2); */
+      width:  75%;
+      height: 75%; /* calc(var(--size) / 2); */
       /* x: calc(var(--size) / 4); */
       /* y: calc(var(--size) / 4); */
     }
