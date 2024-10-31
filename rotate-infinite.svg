@@ -8,8 +8,6 @@
       --size: 64%;
       --corner-radius: 8;
 
-      background-color: #111;
-
       fill: currentColor; /*: none;
       stroke: currentColor;
       stroke-width: 2;
