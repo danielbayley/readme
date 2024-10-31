@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <style>
     @media (prefers-color-scheme: dark)  { svg { color-scheme: dark  }}
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
 
     svg {
-      --view-box: 32px;
-      --size: 64%; /* calc(var(--view-box) / 2) */
+      --view-box: 64px;
+      --size: 64%;
+      --corner-radius: 4;
 
       background-color: #111;
 
       fill: currentColor; /*: none;
       stroke: currentColor;
-      stroke-width: 4;
+      stroke-width: 2;
       stroke-linecap:  round;
       stroke-linejoin: round;
       */
@@ -28,7 +29,7 @@
       --margin: calc((var(--view-box) - var(--size)) / 2);
       x: var(--margin);
       y: var(--margin);
-      rx: 4px;
+      rx: calc(var(--corner-radius) * 1px);
     }
 
     .rotate {
