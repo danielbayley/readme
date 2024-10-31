@@ -21,10 +21,10 @@
     }
 
     rect {
-      --calc: calc(var(--view-box) - (var(--margin) / 2));
-      width:  var(--calc);
-      height: var(--calc);
-      --margin: calc((var(--view-box) - var(--size)) / 2);
+      --size: calc(var(--view-box) - (var(--margin) / 2));
+      width:  var(--size);
+      height: var(--size);
+      /* --margin: calc((var(--view-box) - var(--size)) / 2); */
       x: var(--margin);
       y: var(--margin);
       rx: calc(var(--corner-radius) * 1px);
