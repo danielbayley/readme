@@ -6,16 +6,16 @@
     svg {
       --view-box: 64px;
       --size: 50%; /* calc(var(--view-box) / 2) */
-    }
 
-    * {
       fill: none;
       stroke: currentColor;
       --stroke-width: 4;
       stroke-width: var(--stroke-width);
       stroke-linecap:  round;
       stroke-linejoin: round;
+    }
 
+    * {
       transform-origin: center;
       transform-box: fill-box;
     }
