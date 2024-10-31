@@ -9,4 +9,4 @@
 
 
 [svg]:        https://developer.mozilla.org/docs/Web/SVG
-[`rotate`]:   https://developer.mozilla.org/docs/Web/SVG/Attribute/rotate
+[`rotate`]:   https://developer.mozilla.org/docs/Web/CSS/rotate
