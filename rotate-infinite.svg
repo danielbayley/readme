@@ -23,7 +23,7 @@
     rect {
       width:  var(--size);
       height: var(--size);
-      --margin: calc((var(--view-box) - var(--size)) / 2);
+      --margin: calc((var(--view-box) - var(--size)) / 2px);
       x: var(--margin);
       y: var(--margin);
       rx: 8;
