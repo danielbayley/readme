@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <style>
     @media (prefers-color-scheme: dark)  { svg { color-scheme: dark  }}
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
 
-    svg { --view-box: 96px }
+    svg { --view-box: 64px }
     * {
       fill: none;
       stroke: currentColor;
