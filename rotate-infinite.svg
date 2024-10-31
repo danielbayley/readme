@@ -7,11 +7,12 @@
       --view-box: 64px;
       --size: 50%; /* calc(var(--view-box) / 2) */
 
-      fill: none;
+      fill: currentColor; /*: none;
       stroke: currentColor;
       stroke-width: 4;
       stroke-linecap:  round;
       stroke-linejoin: round;
+      */
     }
 
     svg * {
