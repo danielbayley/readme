@@ -4,7 +4,7 @@
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
     svg {
       --view-box: 64px;
-      --margin: 8;
+      --margin: 8px;
       --corner-radius: var(--margin);
 
       fill: currentColor; /*: none;
