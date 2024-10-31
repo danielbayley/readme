@@ -11,7 +11,7 @@
     }
 
     .rotate {
-      animation: rotate 1s linear;
+      animation: rotate 2s linear;
     } @keyframes rotate { to { rotate: 1turn }}
 
     .infinite {
@@ -19,5 +19,5 @@
       animation-timing-function: linear;
     }
   </style>
-  <rect x="80" y="80" width="128" height="128" class="rotate infinite"/>
+  <rect x="16" y="16" width="128" height="128" class="rotate infinite"/>
 </svg>
