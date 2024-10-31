@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <style>
+  <stylex>
     @media (prefers-color-scheme: dark)  { svg { color-scheme: dark  }}
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
 
@@ -37,6 +37,6 @@
       animation-iteration-count: infinite;
       animation-timing-function: linear;
     }
-  </style>
-  <rect rx="4" class="rotate infinite"/>
+  </stylex>
+  <rect width="50%" height="50%" rx="4" class="rotate infinite"/>
 </svg>
