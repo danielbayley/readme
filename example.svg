@@ -8,6 +8,7 @@
       stroke-linejoin: round;
       transform-origin: center;
       transform-box: fill-box;
+      overflow: visible;
     }
 
     .rotate {
