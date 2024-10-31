@@ -25,8 +25,8 @@
       width:  var(--size);
       height: var(--size);
       /* --margin: calc((var(--view-box) - var(--size)) / 2); */
-      x:  calc(var(--margin) * 1px);
-      y:  calc(var(--margin) * 1px);
+      x:  var(--margin);
+      y:  var(--margin);
       rx: calc(var(--corner-radius) * 1px);
     }
 
