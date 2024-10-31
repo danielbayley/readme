@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <stylex>
+  <style>
     @media (prefers-color-scheme: dark)  { svg { color-scheme: dark  }}
     @media (prefers-color-scheme: light) { svg { color-scheme: light }}
 
     svg {
       --view-box: 64px;
-      --size: 50%; /* calc(var(--view-box) / 2) */
+      --size: 64%; /* calc(var(--view-box) / 2) */
 
       fill: currentColor; /*: none;
       stroke: currentColor;
@@ -37,6 +37,6 @@
       animation-iteration-count: infinite;
       animation-timing-function: linear;
     }
-  </stylex>
+  </style>
   <rect class="rotate infinite"/>
 </svg>
