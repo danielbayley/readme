@@ -26,7 +26,7 @@
       --margin: calc((var(--view-box) - var(--size)) / 2);
       x: var(--margin);
       y: var(--margin);
-      rx: va(--stroke-width)
+      rx: var(--stroke-width);
     }
 
     .rotate {
