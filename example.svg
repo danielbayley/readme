@@ -11,10 +11,10 @@
       transform-box: fill-box;
 
       --resize: calc(var(--size) / 2);
-      --margin: calc((var(--size) / 2) - (var(--size) / 2));
+      --margin: calc(var(--resize) / 2);
 
-      width:  var(--size);
-      height: var(--size);
+      width:  var(--resize);
+      height: var(--resize);
       x: var(--margin);
       y: var(--margin);
     }
